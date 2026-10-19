@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and cache
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets and Environment Variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Large Model Checkpoints & Precomputed Feature Embeddings
+# (train_features.pt is >100MB which exceeds GitHub limits)
+checkpoints/*.pth
+checkpoints/*.pt
+!checkpoints/.gitkeep
+features/*.pt
+features/*.json
+!features/.gitkeep
+
+# Output artifacts
+results/xai/*
+!results/xai/.gitkeep
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

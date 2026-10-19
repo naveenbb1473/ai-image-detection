@@ -1,0 +1,53 @@
+==================================================
+DATASET REPORT
+==================================================
+Timestamp: 2026-08-19 22:28:44
+Total Files Scanned: 94455
+
+CLASS DISTRIBUTION:
+- Real images: 45670
+- AI-generated images: 48785
+- Class Balance Ratio: 0.9361
+
+INTEGRITY STATUS:
+- Valid images: 94455
+- Corrupted images: 0
+- Missing files: 0
+
+FILE EXTENSIONS CONFORMITY:
+- .WEBP: 48785 (51.65%)
+- .JPG: 40670 (43.06%)
+- .PNG: 5000 (5.29%)
+
+IMAGE FORMATS (Pillow decoded):
+- WEBP: 48785
+- JPEG: 40670
+- PNG: 5000
+
+COLOR MODES:
+- RGB: 94425
+- L: 30
+
+TOP 10 RESOLUTIONS:
+- 512x512: 22380 (23.69%)
+- 640x480: 9069 (9.60%)
+- 1024x1024: 5690 (6.02%)
+- 640x427: 5248 (5.56%)
+- 512x768: 4925 (5.21%)
+- 512x704: 4272 (4.52%)
+- 480x640: 3062 (3.24%)
+- 768x512: 2668 (2.82%)
+- 1024x512: 2288 (2.42%)
+- 640x426: 1947 (2.06%)
+
+DUPLICATE FILENAMES COUNT: 0
+
+AI GENERATOR / METADATA ANALYSIS:
+- Total JSON Metadata entries: 49000
+- Matched to images on disk: 48785
+- Inferred generator source: Stable Diffusion (via prompt/sampler metadata)
+- Metadata fields: p, c, se, st, sa
+- Top Samplers: [('k_lms', 47730), ('k_euler_ancestral', 345), ('k_euler', 275), ('k_dpm_2_ancestral', 200), ('ddim', 74)]
+- Top Steps: [(50, 47166), (150, 912), (95, 252), (100, 75), (70, 72)]
+
+==================================================
